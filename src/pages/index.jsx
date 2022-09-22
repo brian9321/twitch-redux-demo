@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { setUser } from '../reducers/user/userSlice';
 
+
 export const Index = () => {
 
   const emailField = useRef(null);
